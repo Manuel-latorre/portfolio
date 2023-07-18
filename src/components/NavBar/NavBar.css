@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.btnNavbar{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    background:linear-gradient(135deg,rgba(30, 29, 29, 0.1), rgba(17, 17, 17, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid 1px rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding:10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btnNavbar:hover{
+    background-color: white;
+    color: black;
+}
+
+.containerBtnNavbar{
+    align-self: center;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+
