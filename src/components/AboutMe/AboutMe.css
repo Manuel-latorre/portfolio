@@ -205,10 +205,11 @@ padding: 20px 40px;
 @media(max-width: 888px){
   .sobreMi{
     font-size: 40px;
+    margin-left: 20px;
   }
   .btnCV{
     width: 150px;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 }
 
@@ -222,5 +223,22 @@ padding: 20px 40px;
   }
   .card p{
     font-size: 12px;
+  }
+}
+
+@media(max-width: 400px){
+  .sobreMi{
+    font-size: 20px;
+  }
+  .btnCV{
+    width: 70px;
+    margin-left: 15px;
+  }
+  .btnCV{
+    font-size: 14px;
+  }
+  .gifDescargaCv{
+    width: 30px;
+    height: 30px;
   }
 }
