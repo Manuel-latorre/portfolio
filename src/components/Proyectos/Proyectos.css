@@ -1,5 +1,5 @@
 .containerProyectos {
-    background-image: url('./assets/fondoAboutMe.svg');
+    background-image: url('../AboutMe/assets/fondoAboutMe.svg');
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -128,3 +128,49 @@
 .btnLinkWise:hover{
     transform: translateY(-8px);
 }
+
+
+@media(max-width: 888px){
+    .misProyectos{
+      font-size: 40px;
+    }
+    .cardProyecto{
+        width:300px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .imgCard{
+        width: 150px;
+        height: 90px;
+    }
+    .textCard{
+        display: none;
+    }
+    .btnLinkWise{
+        font-size: 10px;
+    }
+  }
+  
+  @media(max-width: 680px){
+    .misProyectos{
+      font-size: 20px;
+    }
+    .cardProyecto{
+        width:300px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .imgCard{
+        width: 150px;
+        height: 90px;
+    }
+    .textCard{
+        display: none;
+    }
+    .btnLinkWise{
+        font-size: 10px;
+    }
+    .btnLink{
+        font-size: 12px;
+    }
+  }

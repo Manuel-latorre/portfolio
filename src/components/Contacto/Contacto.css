@@ -1,6 +1,6 @@
 .containerForm{
     background-image: url('./assets/bgForm.svg');
-    height: 100vh;
+    height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,4 +78,10 @@
 
 .enviar{
   cursor: pointer;
+}
+
+@media(max-width: 600px){
+  .titleContacto{
+    font-size:40px;
+  }
 }

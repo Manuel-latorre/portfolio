@@ -12,6 +12,7 @@
 
 .titulos{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .containerTitulos{
-    background-image: url('./assets/fondoAboutMe.svg');
+    background-image: url('../AboutMe/assets/fondoAboutMe.svg');
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;

@@ -1,21 +1,31 @@
-import React, {useRef} from 'react'
+import React, { useState } from 'react'
 import './NavBar.css'
 import logo from './assets/logo.svg'
+import openMenu from './assets/bars.png'
+import closeMenu from './assets/x.png'
 
 const NavBar = () => {
 
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className='navbar'>
-        <div>
+    <div className='navbar'>   
+        <div className={`nav_toggle ${isOpen && 'open'}`} onClick={() => setIsOpen(!isOpen)}>
+          {
+            !isOpen ? <img className='togglw' src={openMenu} alt="" /> 
+            : <img className='togglw' src={closeMenu} alt="" /> 
+          }
+        </div>
+        <div className='nav_logo'>
             <img className='logo' src={logo} alt="logo" />
         </div>
-        <div className='containerBtnNavbar'>
-            <a href='#inicio' className='btnNavbar'>Incio</a>
-            <a href='#sobreMi' className='btnNavbar'>Sobre mi</a>
-            <a href='#proyectos' className='btnNavbar'>Proyectos</a>
-            <a href='#tecnologias' className='btnNavbar'>Tecnologias</a>
-            <a href='#titulos' className='btnNavbar'>Titulos</a>
-            <a href='#contacto' className='btnNavbar'>Contacto</a>
+        <div className={`nav_items ${isOpen && 'open'}`}>
+            <a href='#inicio' >Incio</a>
+            <a href='#sobreMi'>Sobre mi</a>
+            <a href='#proyectos'>Proyectos</a>
+            <a href='#tecnologias'>Tecnologias</a>
+            <a href='#titulos'>Titulos</a>
+            <a href='#contacto'>Contacto</a>
         </div>
     </div>
   )

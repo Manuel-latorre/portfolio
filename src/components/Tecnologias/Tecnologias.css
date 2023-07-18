@@ -1,5 +1,5 @@
 .containerTecnologias {
-    background-image: url('./assets/fondoAboutMe.svg');
+    background-image: url('../AboutMe/assets/fondoAboutMe.svg');
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -42,4 +42,13 @@
     justify-content: center;
     height: 200px;
     margin-top: 200px;
+    width: 100%;
+    height:100%;
+    flex-wrap: wrap;
+  }
+
+  @media(max-width: 500px){
+    .titleTecnologias{
+      font-size:40px;
+    }
   }
