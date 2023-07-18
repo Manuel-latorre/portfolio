@@ -9,7 +9,7 @@ const Titulos = () => {
     <div id='titulos' className='containerTitulos'>
         
             <div className='sectionTitleTitulos'>
-                <h2 className='titleTitulos'>Titulos</h2>
+                <h2 className='titleTitulos'>Títulos</h2>
             </div>
             <div className='titulos'>
                 <img className='imgTitulo' src={henry} alt="" />

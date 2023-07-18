@@ -15,7 +15,7 @@ const Tecnologias = () => {
     <div id='tecnologias' className='containerTecnologias'>
         <div className='sectionTech'>
             <div className='sectionTitle'>
-                <h2 className='titleTecnologias'>Tecnologias</h2>
+                <h2 className='titleTecnologias'>Tecnologías</h2>
             </div>
             <div className='tecnologias'>
               <div>
