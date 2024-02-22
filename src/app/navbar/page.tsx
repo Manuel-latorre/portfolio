@@ -29,13 +29,15 @@ export default function Nav() {
           className="sm:hidden"
         />
         <NavbarBrand className="flex max-md:justify-center">
-          <Image width={60} height={60} src={icon} alt="icon"/>
+          <Link href={"/"}>
+            <Image width={60} height={60} src={icon} alt="icon"/>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#sobreMi">
             Sobre mi
           </Link>
         </NavbarItem>
@@ -45,24 +47,24 @@ export default function Nav() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#projects">
             Proyectos
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies">
             Tecnologias
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#studies">
             Estudios
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="bg-zinc-900">
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#sobreMi">
             Sobre mi
           </Link>
         </NavbarMenuItem>
@@ -72,17 +74,17 @@ export default function Nav() {
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#projects">
               Proyectos
             </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies">
               Tecnologias
             </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#">
+          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#studies">
               Estudios
             </Link>
         </NavbarMenuItem>

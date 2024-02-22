@@ -4,6 +4,8 @@ import TuMejorAmigo from "./experiencie/TuMejorAmigo";
 import Gentech from "./experiencie/Gentech";
 import TechShopApi from "./projects/TechShopApi";
 import Api from "./projects/Api";
+import Technologies from "./technologies/page";
+import Studies from "./studies/Studies";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Gentech/>
         <TechShopApi/>
         <Api/>
+        <Technologies/>
+        <Studies/>
     </div>
   );
 }
