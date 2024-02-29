@@ -31,7 +31,7 @@ export function Fs() {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-zinc-300">Javascript</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1 text-zinc-300">Desarrollo Web Fullstack</ModalHeader>
               <ModalBody>
                 <Image src={fs} alt="dw"/>
               </ModalBody>
