@@ -10,7 +10,7 @@ import Footer from "./footer/page";
 
 export default function Home() {
   return (
-    <div className="h-full w-full dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] flex flex-col lg:gap-36 max-lg:gap-5">
+    <div className="h-full w-full bg-black  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] flex flex-col lg:gap-36 max-lg:gap-5">
         <AboutMe/>
         <TuMejorAmigo/>
         <Gentech/>
