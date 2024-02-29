@@ -4,7 +4,7 @@ import React from "react";
 import { Meteors } from "../../components/ui/Meteors";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import Image from "next/image";
-import js from './images/js.png'
+import fs from './images/fs.png'
 
 export function Fs() {
 
@@ -33,7 +33,7 @@ export function Fs() {
             <>
               <ModalHeader className="flex flex-col gap-1 text-zinc-300">Javascript</ModalHeader>
               <ModalBody>
-                <Image src={js} alt="dw"/>
+                <Image src={fs} alt="dw"/>
               </ModalBody>
               <ModalFooter>
                 <Button color="default" onPress={onClose} className="font-semibold">

@@ -12,7 +12,7 @@ export default function Experiencie(){
     
 
     return(
-        <div className="flex flex-col w-9/12 mx-auto max-xl:w-full max-xl:p-10">
+        <div id="experiencia" className="flex flex-col w-9/12 mx-auto max-xl:w-full max-xl:p-10">
             <div>
               <p className="font-bold text-5xl text-white text-center xl:mb-10">Experiencia</p>
             </div> 

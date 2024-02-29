@@ -6,3 +6,8 @@
 body{
     scroll-behavior: smooth;
 }
+
+:root{
+    scroll-behavior: smooth;
+}
+

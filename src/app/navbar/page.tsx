@@ -53,7 +53,7 @@ export default function Nav() {
         </NavbarItem>
         <NavbarItem>
           <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies">
-            Tecnologias
+            Tecnologías
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -80,7 +80,7 @@ export default function Nav() {
         </NavbarMenuItem>
         <NavbarMenuItem>
           <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies">
-              Tecnologias
+              Tecnologías
             </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>

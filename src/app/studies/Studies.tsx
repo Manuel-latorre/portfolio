@@ -4,7 +4,7 @@ import { Js } from "./Js";
 
 export default function Studies(){
     return(
-        <div id="studies">
+        <div id="studies" className="mb-20">
             <p className="font-bold text-5xl text-white text-center mb-20">Estudios</p>
             <div className="flex items-center justify-center gap-5 max-lg:flex-wrap">
                 <Dw/>

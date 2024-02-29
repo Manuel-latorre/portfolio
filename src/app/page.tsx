@@ -6,6 +6,7 @@ import TechShopApi from "./projects/TechShopApi";
 import Api from "./projects/Api";
 import Technologies from "./technologies/page";
 import Studies from "./studies/Studies";
+import Footer from "./footer/page";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Api/>
         <Technologies/>
         <Studies/>
+        <Footer/>
     </div>
   );
 }
