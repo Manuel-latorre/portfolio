@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/favicon/favicon.ico" />
       <body className={inter.className}>
         <Providers>
           <Nav/>
