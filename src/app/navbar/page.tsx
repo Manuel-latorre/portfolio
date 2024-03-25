@@ -64,29 +64,29 @@ export default function Nav() {
       </NavbarContent>
       <NavbarMenu className="bg-zinc-900">
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#sobreMi">
+          <a className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#sobreMi" onClick={() => setIsMenuOpen(false)}>
             Sobre mi
-          </Link>
+          </a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#experiencia">
+          <a className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#experiencia" onClick={() => setIsMenuOpen(false)}>
             Experiencia
-          </Link>
+          </a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#projects">
+          <a className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#projects" onClick={() => setIsMenuOpen(false)}>
               Proyectos
-            </Link>
+            </a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies">
+          <a className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#technologies" onClick={() => setIsMenuOpen(false)}>
               Tecnologías
-            </Link>
+            </a>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#studies">
+          <a className="text-zinc-300 hover:text-zinc-500 font-semibold" href="#studies" onClick={() => setIsMenuOpen(false)}>
               Estudios
-            </Link>
+            </a>
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>
