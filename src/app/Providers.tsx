@@ -4,7 +4,11 @@
 import { LanguageProvider } from '@/context/LanguageContext'
 import {NextUIProvider} from '@nextui-org/react'
 
-export function Providers({children}: { children: React.ReactNode }) {
+interface LanguageProviderProps {
+  
+}
+
+export function Providers({children}:any) {
   return (
     <NextUIProvider>
       <LanguageProvider>

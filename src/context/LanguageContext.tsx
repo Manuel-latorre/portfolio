@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 interface LanguageContextType {
   isEnglish: boolean;
@@ -16,7 +16,11 @@ export function useLanguage() {
   return useContext(LanguageContext);
 }
 
-export const LanguageProvider: React.FC = ({ children }:any) => {
+interface LanguageProviderProps {
+  children: ReactNode;
+}
+
+export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) => {
   const [isEnglish, setIsEnglish] = useState<boolean>(false);
 
   const switchToEnglish = () => {
