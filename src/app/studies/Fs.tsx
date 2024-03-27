@@ -5,10 +5,12 @@ import { Meteors } from "../../components/ui/Meteors";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import Image from "next/image";
 import fs from './images/fs.png'
+import { useLanguage } from "@/context/LanguageContext";
 
 export function Fs() {
 
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
+    const { isEnglish} = useLanguage();
 
   return (
     <div className="">
@@ -17,27 +19,27 @@ export function Fs() {
         <div className="relative shadow-xl bg-black border border-zinc-900  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
 
           <h1 className="font-bold text-xl text-white relative z-50">
-            Desarrollo Web Fullstack
+            {isEnglish ? "Fullstack Web Developer" : "Desarrollo Web Fullstack"}
           </h1>
           <div className=" flex flex-col mb-3">
-            <p className="text-zinc-400">Marzo 2023 - Julio 2023</p>
+            <p className="text-zinc-400">{isEnglish ? "March 2023 - July 2023" : "Marzo 2023 - Julio 2023"}</p>
             <p className="text-zinc-400">Henry</p>
           </div>
 
           <button onClick={onOpen} className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-            Certificado
+            {isEnglish ? "Certificate" : "Certificado"}
           </button>
           <Modal isOpen={isOpen} onOpenChange={onOpenChange} backdrop="blur" className="bg-zinc-900">
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1 text-zinc-300">Desarrollo Web Fullstack</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1 text-zinc-300">{isEnglish ? "Fullstack Web Developer" : "Desarrollo Web Fullstack"}</ModalHeader>
               <ModalBody>
                 <Image src={fs} alt="dw"/>
               </ModalBody>
               <ModalFooter>
                 <Button color="default" onPress={onClose} className="font-semibold">
-                  Cerrar
+                  {isEnglish ? "Close" : "Cerrar"}
                 </Button>
               </ModalFooter>
             </>

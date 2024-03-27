@@ -1,9 +1,14 @@
+'use client'
+
+import { useLanguage } from "@/context/LanguageContext";
 import { Button } from "@nextui-org/react";
 
 export default function Technologies(){
+
+    const { isEnglish} = useLanguage();
     return(
         <div id="technologies" className="flex flex-col w-9/12 mx-auto max-xl:w-full max-xl:p-10 mb-20">
-            <p className="font-bold text-5xl text-white text-center xl:mb-10">Tecnologias</p>
+            <p className="font-bold text-5xl text-white text-center xl:mb-10">{isEnglish ? "Technologies" : "Tecnologías"}</p>
             <div className="mt-7">
                 <div className="flex items-center gap-4 flex-wrap justify-center">
                     <Button className="flex items-center gap-2" color="default" size="sm">

@@ -1,32 +1,38 @@
+'use client'
+
 import Link from 'next/link'
 import icon from '../../../public/icon.svg'
 import Image from 'next/image'
+import { useLanguage } from '@/context/LanguageContext';
 
 
 
 export default function Footer(){
+
+    const { isEnglish} = useLanguage();
+
     return(
         <footer className="flex items-center p-5 bg-zinc-950 justify-around">
             <div className='flex flex-col gap-2'>
         
                 <Link className="text-zinc-300 hover:text-zinc-500 " href="#sobreMi">
-                    Sobre mi
+                    {isEnglish ? "About me" : "Sobre mi"}
                 </Link>
 
                 <Link className="text-zinc-300 hover:text-zinc-500 " href="#experiencia">
-                    Experiencia
+                    {isEnglish ? "Experience" : "Experiencia"}
                 </Link>
 
                 <Link className="text-zinc-300 hover:text-zinc-500 " href="#projects">
-                    Proyectos
+                    {isEnglish ? "Projects" : "Proyectos"}
                 </Link>
 
                 <Link className="text-zinc-300 hover:text-zinc-500 " href="#technologies">
-                    Tecnologías
+                    {isEnglish ? "Technologies" : "Tecnologías"}
                 </Link>
 
                 <Link className="text-zinc-300 hover:text-zinc-500 " href="#studies">
-                    Estudios
+                    {isEnglish ? "Studies" : "Estudios"}
                 </Link>
             </div>
             <div>

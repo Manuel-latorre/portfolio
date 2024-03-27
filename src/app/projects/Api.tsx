@@ -4,11 +4,13 @@ import routes from './images/routes.png'
 
 import { BackgroundGradientLg } from "@/components/ui/Background-gradient-lg";
 import { Button, Link } from "@nextui-org/react";
+import { useLanguage } from "@/context/LanguageContext";
 
 
 
 export default function Api(){
     
+    const { isEnglish} = useLanguage();
     
 
     return(
@@ -17,31 +19,31 @@ export default function Api(){
                 <p className="font-semibold text-2xl text-white">Tech Shop API Database</p>
             </div>
             <div className="mt-2 flex flex-col gap-3">
-                <p className="text-sm text-white">Febrero 2024</p>
+            <p className="text-sm text-white">{isEnglish ? "February 2024" : "Febrero 2024"}</p>
             </div>
             <div className="flex items-start justify-between max-xl:flex-col">
                 <div className="xl:w-2/4 mt-10">
                     <p className="text-zinc-300">
-                        Tech Shop API Database es un base de datos que cuenta con 3 modelos.
+                        {isEnglish ? "Tech Shop API Database is a database that has 3 models." : "Tech Shop API Database es un base de datos que cuenta con 3 modelos."}
                     </p>
                     <ul className="mt-3 flex flex-col gap-4">
                         <li className="flex items-center gap-2">
                             <svg width={20} height={20} fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 16 4 C 9.382813 4 4 9.382813 4 16 C 4 22.617188 9.382813 28 16 28 C 22.617188 28 28 22.617188 28 16 C 28 9.382813 22.617188 4 16 4 Z M 16 6 C 21.535156 6 26 10.464844 26 16 C 26 21.535156 21.535156 26 16 26 C 10.464844 26 6 21.535156 6 16 C 6 10.464844 10.464844 6 16 6 Z M 16 13 C 14.34375 13 13 14.34375 13 16 C 13 17.65625 14.34375 19 16 19 C 17.65625 19 19 17.65625 19 16 C 19 14.34375 17.65625 13 16 13 Z"></path></g></svg>
-                            <p className="text-zinc-300 text-md">Productos: Este modelo representa los productos disponibles en la tienda. Cada producto tiene propiedades como nombre, descripción, precio, categoría, etc.</p>
+                            <p className="text-zinc-300 text-md">{isEnglish ? "Products: This model represents the products available in the store. Each product has properties such as name, description, price, category, etc." : "Productos: Este modelo representa los productos disponibles en la tienda. Cada producto tiene propiedades como nombre, descripción, precio, categoría, etc."}</p>
                         </li>
                         <li className="flex items-center gap-2">
                             <svg width={20} height={20} fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 16 4 C 9.382813 4 4 9.382813 4 16 C 4 22.617188 9.382813 28 16 28 C 22.617188 28 28 22.617188 28 16 C 28 9.382813 22.617188 4 16 4 Z M 16 6 C 21.535156 6 26 10.464844 26 16 C 26 21.535156 21.535156 26 16 26 C 10.464844 26 6 21.535156 6 16 C 6 10.464844 10.464844 6 16 6 Z M 16 13 C 14.34375 13 13 14.34375 13 16 C 13 17.65625 14.34375 19 16 19 C 17.65625 19 19 17.65625 19 16 C 19 14.34375 17.65625 13 16 13 Z"></path></g></svg>
-                            <p className="text-zinc-300 text-md">Carrito: Este modelo gestiona la información de los usuarios que utilizan la aplicación. Cada usuario tiene propiedades como nombre, correo electrónico, contraseña, etc.</p>
+                            <p className="text-zinc-300 text-md">{isEnglish ? "Cart: This model manages the information of the users who use the application. Each user has properties such as name, email, password, etc." : "Carrito: Este modelo gestiona la información de los usuarios que utilizan la aplicación. Cada usuario tiene propiedades como nombre, correo electrónico, contraseña, etc."}</p>
                         </li>
                         <li className="flex items-center gap-2">
                             <svg width={20} height={20} fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 16 4 C 9.382813 4 4 9.382813 4 16 C 4 22.617188 9.382813 28 16 28 C 22.617188 28 28 22.617188 28 16 C 28 9.382813 22.617188 4 16 4 Z M 16 6 C 21.535156 6 26 10.464844 26 16 C 26 21.535156 21.535156 26 16 26 C 10.464844 26 6 21.535156 6 16 C 6 10.464844 10.464844 6 16 6 Z M 16 13 C 14.34375 13 13 14.34375 13 16 C 13 17.65625 14.34375 19 16 19 C 17.65625 19 19 17.65625 19 16 C 19 14.34375 17.65625 13 16 13 Z"></path></g></svg>
-                            <p className="text-zinc-300 text-md">Usuarios: Este modelo registra los productos que los usuarios agregan a su carrito de compras. Cada carrito tiene propiedades como el ID del usuario, una lista de productos y la cantidad de cada producto.</p>
+                            <p className="text-zinc-300 text-md">{isEnglish ? "Users: This model records the products that users add to their shopping cart. Each cart has properties such as the user ID, a list of products, and the quantity of each product." : "Usuarios: Este modelo registra los productos que los usuarios agregan a su carrito de compras. Cada carrito tiene propiedades como el ID del usuario, una lista de productos y la cantidad de cada producto."}</p>
                         </li>
                     </ul>
                     <div className="flex flex-col mt-4 gap-4 text-zinc-300">
-                        <p>El sistema implementa un CRUD completo para cada uno de estos modelos, lo que permite realizar operaciones de creación, lectura, actualización y eliminación de productos, usuarios y carritos.</p>
-                        <p>El backend está desarrollado con Express, que maneja las rutas y controladores para cada operación CRUD. Se utiliza MongoDB como base de datos para almacenar la información de manera persistente.</p>
-                        <p>En resumen, esta aplicación proporciona una plataforma completa para administrar productos, usuarios y carritos de compra, permitiendo a los usuarios realizar operaciones CRUD sobre ellos de manera eficiente y segura.</p>                    
+                        <p>{isEnglish ? "The system implements a full CRUD for each of these models, allowing for creation, reading, updating, and deletion of products, users, and carts." : "El sistema implementa un CRUD completo para cada uno de estos modelos, lo que permite realizar operaciones de creación, lectura, actualización y eliminación de productos, usuarios y carritos."}</p>
+                        <p>{isEnglish ? "The backend is developed with Express, which handles the routes and drivers for each CRUD operation. MongoDB is used as the database to store information persistently." : "El backend está desarrollado con Express, que maneja las rutas y controladores para cada operación CRUD. Se utiliza MongoDB como base de datos para almacenar la información de manera persistente."}</p>
+                        <p>{isEnglish ? "In short, this app provides a complete platform for managing products, users, and shopping carts, allowing users to perform CRUD operations on them efficiently and securely." : "En resumen, esta aplicación proporciona una plataforma completa para administrar productos, usuarios y carritos de compra, permitiendo a los usuarios realizar operaciones CRUD sobre ellos de manera eficiente y segura."}</p>                    
                     </div>
                     <div className="flex items-center gap-5 mt-5">
                         <Button as={Link} href="https://github.com/Manuel-latorre/api-ecommerce" variant="shadow" color="secondary" size="sm" className="flex items-center" target="_blank">
@@ -53,7 +55,7 @@ export default function Api(){
                             API Rest
                         </Button>
                     </div>
-                    <p className="text-zinc-300 font-bold mt-10">Tecnologías utilizadas</p>
+                    <p className="text-zinc-300 font-bold mt-10">{isEnglish ? "Technologies used" : "Tecnologías utilizadas"}</p>
                     <div className="flex items-center gap-2 mt-4 flex-wrap">
                         <div className="p-1 px-2 bg-zinc-600 text-zinc-300 rounded-lg text-sm">
                             Javascript

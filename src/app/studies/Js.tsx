@@ -5,10 +5,13 @@ import { Meteors } from "../../components/ui/Meteors";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import Image from "next/image";
 import js from './images/js.png'
+import { useLanguage } from "@/context/LanguageContext";
 
 export function Js() {
 
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
+    const { isEnglish} = useLanguage();
+
 
   return (
     <div className="">
@@ -21,14 +24,14 @@ export function Js() {
             Javascript
           </h1>
           <div className=" flex flex-col mb-3">
-            <p className="text-zinc-400">Junio 2022 - Octubre 2022</p>
+            <p className="text-zinc-400">{isEnglish ? "June 2022 - October 2022" : "Junio 2022 - Octubre 2022"}</p>
             <p className="text-zinc-400">CoderHouse</p>
           </div>
 
           
 
           <button onClick={onOpen} className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
-            Certificado
+          {isEnglish ? "Certificate" : "Certificado"}
           </button>
           <Modal isOpen={isOpen} onOpenChange={onOpenChange} backdrop="blur" className="bg-zinc-900">
         <ModalContent>
@@ -40,7 +43,7 @@ export function Js() {
               </ModalBody>
               <ModalFooter>
                 <Button color="default" onPress={onClose} className="font-semibold">
-                  Cerrar
+                {isEnglish ? "Close" : "Cerrar"}
                 </Button>
               </ModalFooter>
             </>
