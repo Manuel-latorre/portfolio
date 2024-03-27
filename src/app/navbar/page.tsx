@@ -71,7 +71,7 @@ export default function Nav() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end" className="">
+      <NavbarContent justify="end" className="max-md:mr-5">
         <NavbarItem className="p-3">
           <ButtonsLanguages/>
         </NavbarItem>
