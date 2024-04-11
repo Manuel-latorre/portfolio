@@ -66,9 +66,24 @@ export default function AboutMe(){
                 {
                   isEnglish 
                   ? 
-                    <p className="text-gray-400 mt-4 max-lg:text-center">My experience spans both the Frontend and the Backend, allowing me to offer complete solutions. When creating projects, I prefer to work with the MERN stack (MongoDB, Express, React, and Node.js) as a technological base. Going through Henry Bootcamp I worked on individual and group projects with agile methodologies such as SCRUM and also developed skills such as active listening, proactivity, teamwork and good practices.</p> 
+                    <p className="text-gray-400 mt-4 max-lg:text-center">
+                      Fullstack Developer with more than 6 months of professional experience in Development   
+                      Frontend. My experience encompasses both the Frontend and the Backend, which makes me 
+                      It allows you to offer complete and well-integrated solutions. I specialize in the 
+                      web application development using the MERN stack (MongoDB, Express, React, and 
+                      Node.js) as the preferred technology base. I am committed to excellence 
+                      and the delivery of high-quality products that meet the needs of the 
+                      customer
+                    </p> 
                   : 
-                    <p className="text-gray-400 mt-4 max-lg:text-center">Mi experiencia abarca tanto el Frontend como el Backend, lo que me permite ofrecer soluciones completas. En la creación de proyectos, prefiero trabajar con el stack MERN (MongoDB, Express, React y Node.js) como base tecnológica. Transitando el Bootcamp de Henry trabajé en proyectos individuales y grupales con metodologías ágiles como SCRUM y también desarrollé habilidades como la escucha activa, la proactividad, el trabajo en equipo y las buenas prácticas.</p>
+                    <p className="text-gray-400 mt-4 max-lg:text-center">
+                    Cuento con más de 6 meses de experiencia profesional en Desarrollo   
+                    Frontend. Mi experiencia abarca tanto el Frontend como el Backend, lo que me 
+                    permite ofrecer soluciones completas y bien integradas. Me especializo en el 
+                    desarrollo de aplicaciones web utilizando el stack MERN (MongoDB, Express, React y 
+                    Node.js) como base tecnológica preferida. Estoy comprometido con la excelencia 
+                    técnica y la entrega de productos de alta calidad que satisfacen las necesidades del 
+                    cliente.</p>
                 }
                 
                 <div className="flex items-center gap-7 mt-5 max-lg:justify-center max-sm:flex-wrap">
