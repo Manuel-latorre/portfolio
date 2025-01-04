@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Welcome to My Portfolio
 
-## Getting Started
+![Portfolio Banner](https://via.placeholder.com/1200x300)
 
-First, run the development server:
+## 🚀 About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I am a Systems Engineering student with experience in developing web applications and data management platforms. My goal is to create technological solutions that optimize processes and improve the user experience. I have more than a year of experience working in various projects, I currently work as a Fullstack Developer at Tualo and I also do freelance projects, applying my knowledge in various environments and technological challenges.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Backend**: Node.js, Express, Python
+- **Databases**: MongoDB, MySQL, PostgreSQL
+- **DevOps**: Docker, Git, CI/CD
+- **Other**: RESTful APIs, GraphQL, Agile Methodologies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💼 Projects
 
-## Learn More
+Here are some of my notable projects:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Project Name 1**
+   - Brief description
+   - Technologies used
+   - [Link to project](#)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Project Name 2**
+   - Brief description
+   - Technologies used
+   - [Link to project](#)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Project Name 3**
+   - Brief description
+   - Technologies used
+   - [Link to project](#)
 
-## Deploy on Vercel
+## 🎓 Education
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Systems Engineering** - University Name (Year - Present)
+- Any relevant certifications or courses
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 💼 Work Experience
+
+- **Fullstack Developer** at Tualo (Month Year - Present)
+  - Brief description of responsibilities and achievements
+
+- **Freelance Developer** (Month Year - Present)
+  - Types of projects and technologies used
+
+## 📫 Get in Touch
+
+- LinkedIn: [Your LinkedIn](#)
+- Email: your.email@example.com
+- Portfolio: [Your Portfolio Website](#)
+- GitHub: [Your GitHub Profile](#)
+
+## 📊 GitHub Stats
+
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+## 🤝 Open to Collaborations
+
+I'm always interested in working on exciting projects. If you have an idea or want to collaborate, feel free to reach out!
+
+---
+
+⭐️ From [Your Name](https://github.com/yourusername)
