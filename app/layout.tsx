@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${questrial.className}  antialiased overflow-hidden`}
+        className={`${questrial.className}  antialiased`}
       >
         {children}
       </body>

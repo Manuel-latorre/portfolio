@@ -10,7 +10,7 @@ import { ArrowUpRightIcon } from '@heroicons/react/24/outline'
 
 const ProfileCard = () => {
   return (
-    <div className='bg-[#f4f4f4] py-4 px-6 flex flex-col rounded-xl justify-between'>
+    <div className='bg-[#f4f4f4] py-4 px-6 flex flex-col rounded-xl justify-between max-lg:h-screen max-lg:sticky top-0'>
         <div className='flex flex-col gap-6'>
             <Image src={profile} alt='Profile picture' width={400} height={400}/>
             <div className='flex flex-col gap-4'>
