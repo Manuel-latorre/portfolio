@@ -1,52 +1,9 @@
 import React from "react";
 
-const LinkedInIcon = ({width, height}: {width:number, height:number}) => {
+const LinkedInIcon = ({ width, height }: { width: number, height: number }) => {
   return (
-    <svg
-      viewBox="0 0 20 20"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      fill="#000000"
-      width={width} 
-      height={height}
-    >
-      <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-      <g
-        id="SVGRepo_tracerCarrier"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      ></g>
-      <g id="SVGRepo_iconCarrier">
-        {" "}
-        <title>linkedin [#161]</title> <desc>Created with Sketch.</desc>{" "}
-        <defs> </defs>{" "}
-        <g
-          id="Page-1"
-          stroke="none"
-          strokeWidth="1"
-          fill="none"
-          fill-rule="evenodd"
-        >
-          {" "}
-          <g
-            id="Dribbble-Light-Preview"
-            transform="translate(-180.000000, -7479.000000)"
-            fill="#000000"
-          >
-            {" "}
-            <g id="icons" transform="translate(56.000000, 160.000000)">
-              {" "}
-              <path
-                d="M144,7339 L140,7339 L140,7332.001 C140,7330.081 139.153,7329.01 137.634,7329.01 C135.981,7329.01 135,7330.126 135,7332.001 L135,7339 L131,7339 L131,7326 L135,7326 L135,7327.462 C135,7327.462 136.255,7325.26 139.083,7325.26 C141.912,7325.26 144,7326.986 144,7330.558 L144,7339 L144,7339 Z M126.442,7323.921 C125.093,7323.921 124,7322.819 124,7321.46 C124,7320.102 125.093,7319 126.442,7319 C127.79,7319 128.883,7320.102 128.883,7321.46 C128.884,7322.819 127.79,7323.921 126.442,7323.921 L126.442,7323.921 Z M124,7339 L129,7339 L129,7326 L124,7326 L124,7339 Z"
-                id="linkedin-[#161]"
-              >
-                {" "}
-              </path>{" "}
-            </g>{" "}
-          </g>{" "}
-        </g>{" "}
-      </g>
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width={width} height={height} viewBox="0 0 30 30">
+      <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"></path>
     </svg>
   );
 };

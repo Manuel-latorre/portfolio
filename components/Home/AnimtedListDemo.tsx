@@ -24,70 +24,70 @@ interface Item {
 let notifications = [
   {
     name: "NextJs",
-    description: "Favorite framework",
+    description: "",
     time: "",
     icon: <NextjsIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Typescript",
-    description: "I currently use it in my work",
+    description: "",
     time: "",
     icon: <TypescriptIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Javacript",
-    description: "I currently use it in my work",
+    description: "",
     time: "",
     icon: <JavascriptIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Tailwind",
-    description: "Excellent to write inline style",
+    description: "",
     time: "",
     icon: <TailwindIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "React",
-    description: "Learned in Henry Bootcamp",
+    description: "",
     time: "",
     icon: <ReactIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Node",
-    description: "Lorem opsum",
+    description: "",
     time: "",
     icon: <NodeIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Html",
-    description: "Learned in Henry Bootcamp",
+    description: "",
     time: "",
     icon: <HtmlIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Css",
-    description: "Learned in Henry Bootcamp",
+    description: "",
     time: "",
     icon: <CssIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Supabase",
-    description: "Learned in Henry Bootcamp",
+    description: "",
     time: "",
     icon: <SupabaseIcon width={40} height={40}/>,
     color: "",
   },
   {
     name: "Figma",
-    description: "Learned in Henry Bootcamp",
+    description: "",
     time: "",
     icon: <FigmaIcon width={40} height={40}/>,
     color: "",
@@ -121,7 +121,6 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
         <div className="flex flex-col overflow-hidden">
           <figcaption className="flex flex-row items-center whitespace-pre text-lg font-medium dark:text-white ">
             <span className="text-sm sm:text-lg">{name}</span>
-            <span className="mx-1">·</span>
             <span className="text-xs text-gray-500">{time}</span>
           </figcaption>
           <p className="text-sm font-normal dark:text-white/60">
