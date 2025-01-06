@@ -18,6 +18,7 @@ import tma from "../../images/tma.svg";
 import diarc from "../../images/diarc.svg";
 import vittanut from "../../images/vittanut.svg";
 import gt from "../../images/gt.svg";
+import { div } from "motion/react-client";
 
 const files = [
   {
@@ -77,7 +78,7 @@ const features = [
     description: "Here you can see my personal information.",
     href: "#",
     cta: "View more about me",
-    className: "col-span-3 lg:col-span-1",
+    className: "w-[30%]",
     background: (
       <AnimatedBeamMultipleOutputDemo className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
@@ -88,7 +89,7 @@ const features = [
     description: "+1 year experience developing web apps.",
     href: "#",
     cta: "View my profesional experience",
-    className: "col-span-3 lg:col-span-2",
+    className: "w-[70%]",
     background: (
       <Marquee
         pauseOnHover
@@ -126,7 +127,7 @@ const features = [
     description: "I am currently a Systems Engineering student.",
     href: "#",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-2",
+    className: "w-[70%]",
     background: (
       <Marquee
         pauseOnHover
@@ -162,10 +163,10 @@ const features = [
     Icon: CodeIcon,
     name: "Skills & Technologies",
     description:
-      "Currently my favorite stack is Typescript, NextJs and tailwind css.",
+      "",
     href: "#",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-1",
+    className: "w-[30%]",
     background: (
       <AnimatedListDemo className="absolute right-2 top-4 h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
@@ -174,10 +175,18 @@ const features = [
 
 export function BentoDemo() {
   return (
-    <BentoGrid>
-      {features.map((feature, idx) => (
-        <BentoCard key={idx} {...(feature as any)}/>
-      ))}
-    </BentoGrid>
+    
+    <div className="flex flex-col gap-4 h-full">
+        <div className="flex h-full gap-4">
+          {features.slice(0, 2).map((feature, idx) => (
+            <BentoCard key={idx} {...(feature as any)}/>
+          ))}
+        </div>
+        <div className="flex h-full gap-4">
+          {features.slice(2, 4).map((feature, idx) => (
+            <BentoCard key={idx} {...(feature as any)}/>
+          ))}
+        </div>
+    </div>
   );
 }
