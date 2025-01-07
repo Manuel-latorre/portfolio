@@ -14,7 +14,7 @@ const Links = () => {
     return (
         <div className='flex items-center gap-3'>
             <Link
-                href="https://www.linkedin.com/in/manuel-latorre-936b72223/"
+                href="https://www.linkedin.com/in/manuel-latorre-frontend-developer"
                 target="_blank"
                 className="relative inline-block w-[30px] h-[30px]"
                 onMouseEnter={() => setIsHoveredLinkedin(true)}

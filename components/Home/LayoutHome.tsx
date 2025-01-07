@@ -76,7 +76,7 @@ const features = [
     Icon: UserIcon,
     name: "About me",
     description: "Here you can see my personal information.",
-    href: "#",
+    href: "/about-me",
     cta: "View more about me",
     className: "w-[30%]",
     background: (
@@ -87,7 +87,7 @@ const features = [
     Icon: BriefcaseIcon,
     name: "Experience",
     description: "+1 year experience developing web apps.",
-    href: "#",
+    href: "/experience",
     cta: "View my profesional experience",
     className: "w-[70%]",
     background: (
@@ -125,7 +125,7 @@ const features = [
     Icon: BookTextIcon,
     name: "Education",
     description: "I am currently a Systems Engineering student.",
-    href: "#",
+    href: "/education",
     cta: "Learn more",
     className: "w-[70%]",
     background: (
@@ -164,7 +164,7 @@ const features = [
     name: "Skills & Technologies",
     description:
       "",
-    href: "#",
+    href: "/skills-technologies",
     cta: "Learn more",
     className: "w-[30%]",
     background: (
