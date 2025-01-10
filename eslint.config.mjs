@@ -16,7 +16,7 @@ const eslintConfig = [
       "@typescript-eslint/no-explicit-any": "off", // Desactiva la regla globalmente
       "@typescript-eslint/no-unused-vars": [
       "error",
-      { "argsIgnorePattern": "^_" }
+      { "argsIgnorePattern": "_" }
     ]
     },
   },
