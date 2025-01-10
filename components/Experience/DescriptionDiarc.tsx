@@ -46,7 +46,7 @@ const DescriptionDiarc = () => {
         <li className="text-lg">
           <span className="font-semibold text-gray-600"> SEO</span>: Search
           engine optimization practices, such as appropriate meta tags, friendly
-          URLs, and relevant content, are applied to improve the site's
+          URLs, and relevant content, are applied to improve the site&apos;s
           visibility in search results.
         </li>
       </ul>

@@ -1,24 +1,20 @@
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";import {
-  BellIcon,
+import {
   BookTextIcon,
   BriefcaseIcon,
   CodeIcon,
-  Share2Icon,
   UserIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { AnimatedBeamMultipleOutputDemo } from "./AnimatedBeamMultipleOutputDemo";
 import { AnimatedListDemo } from "./AnimtedListDemo";
-import { BentoCard, BentoGrid } from "../ui/bento-grid";
+import { BentoCard } from "../ui/bento-grid";
 import Marquee from "../ui/marquee";
 import Image from "next/image";
-import ProfileIcon from "@/icons/ProfileIcon";
 import tualo from "../../images/tualo.svg";
 import tma from "../../images/tma.svg";
 import diarc from "../../images/diarc.svg";
 import vittanut from "../../images/vittanut.svg";
 import gt from "../../images/gt.svg";
-import { div } from "motion/react-client";
 
 const files = [
   {

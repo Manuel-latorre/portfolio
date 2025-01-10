@@ -5,13 +5,11 @@ const ReviewCard = ({
   name,
   username,
   body,
-  image
 }: {
   img: string;
   name: string;
   username: string;
   body: string;
-  image:any
 }) => {
   return (
     <figure
