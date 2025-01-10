@@ -14,8 +14,10 @@ const ProfileCard = () => {
                 <div className='flex flex-col gap-4'>
                     <h2 className='xl:text-6xl'>Im, <br /> <span className='font-semibold'>Manuel <br /> Latorre</span></h2>
                 </div>
+                <div className='mt-4'>
+                    <Links/>
+                </div>
             </div>
-            <Links/>
             <div className='flex flex-col'>
                 <div className='flex items-center gap-2'>
                     <p className='font-thin text-lg underline underline-offset-8 decoration-dashed'>manuel.latorre11@gmail.com</p>

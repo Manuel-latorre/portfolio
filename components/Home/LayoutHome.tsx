@@ -163,9 +163,9 @@ const features = [
     Icon: CodeIcon,
     name: "Technologies",
     description:
-      "",
+      "Actually my favorite React framework is NextJs",
     href: "/technologies",
-    cta: "Learn more",
+    cta: "View my technologies",
     className: "w-[30%]",
     background: (
       <AnimatedListDemo className="absolute right-2 top-4 h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
