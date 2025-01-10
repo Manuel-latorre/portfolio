@@ -78,7 +78,7 @@ const features = [
     description: "Here you can see my personal information.",
     href: "/about-me",
     cta: "View more about me",
-    className: "w-[30%]",
+    className: "w-full lg:w-[30%]",
     background: (
       <AnimatedBeamMultipleOutputDemo className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
@@ -89,7 +89,7 @@ const features = [
     description: "+1 year experience developing web apps.",
     href: "/experience",
     cta: "View my profesional experience",
-    className: "w-[70%]",
+    className: "lg:w-[70%] w-full",
     background: (
       <Marquee
         pauseOnHover
@@ -127,7 +127,7 @@ const features = [
     description: "I am currently a Systems Engineering student.",
     href: "/education",
     cta: "Learn more",
-    className: "w-[70%]",
+    className: "lg:w-[70%] w-full",
     background: (
       <Marquee
         pauseOnHover
@@ -166,7 +166,7 @@ const features = [
       "Actually my favorite React framework is NextJs",
     href: "/technologies",
     cta: "View my technologies",
-    className: "w-[30%]",
+    className: "w-full lg:w-[30%]",
     background: (
       <AnimatedListDemo className="absolute right-2 top-4 h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
@@ -177,13 +177,18 @@ export function BentoDemo() {
   return (
     
     <div className="flex flex-col gap-4 h-full">
-        <div className="flex h-full gap-4">
+        <div className="flex max-lg:hidden h-full gap-4">
           {features.slice(0, 2).map((feature, idx) => (
             <BentoCard key={idx} {...(feature as any)}/>
           ))}
         </div>
-        <div className="flex h-full gap-4">
+        <div className="flex max-lg:hidden h-full gap-4">
           {features.slice(2, 4).map((feature, idx) => (
+            <BentoCard key={idx} {...(feature as any)}/>
+          ))}
+        </div>
+        <div className="flex flex-col lg:hidden h-full gap-4">
+          {features.map((feature, idx) => (
             <BentoCard key={idx} {...(feature as any)}/>
           ))}
         </div>

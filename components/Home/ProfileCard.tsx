@@ -8,11 +8,11 @@ import Links from '../Links/Links'
 
 const ProfileCard = () => {
     return (
-        <div className='bg-[#f4f4f4] py-4 px-6 flex flex-col justify-between rounded-xl h-full max-lg:sticky top-0'>
+        <div className='bg-[#f4f4f4] py-4 px-6 flex flex-col justify-between rounded-xl h-full max-lg:sticky top-0 max-lg:hidden'>
             <div>
                 <Image src={profile} alt='Profile picture' width={400} height={400} />
                 <div className='flex flex-col gap-4'>
-                    <h2 className='xl:text-6xl'>Im, <br /> <span className='font-semibold'>Manuel <br /> Latorre</span></h2>
+                    <h2 className='text-6xl'>Im, <br /> <span className='font-semibold'>Manuel <br /> Latorre</span></h2>
                 </div>
                 <div className='mt-4'>
                     <Links/>
