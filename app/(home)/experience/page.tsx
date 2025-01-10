@@ -2,10 +2,8 @@ import Image from "next/image";
 import tualo from "../../../images/tualo.svg";
 import tma from "../../../images/tma.svg";
 import diarc from "../../../images/diarc.svg";
-import gt from "../../../images/gt.svg";
 import vittanut from "../../../images/vittanut.svg";
 import brochure from "../../../images/brochure.svg";
-
 import { AccordionDemo } from "@/components/Accordion/Accordion";
 import DescriptionTualo from "@/components/Experience/DescriptionTualo";
 import DescriptionTma from "@/components/Experience/DescriptionTma";
@@ -122,6 +120,7 @@ export default function ExperiencePage() {
         <div>
           {experiences.map((data) => (
             <AccordionDemo
+              key={data.title} 
               trigger={
                 <div className="flex items-center gap-3 w-full justify-between">
                   <div className="flex items-center gap-3">
@@ -153,6 +152,7 @@ export default function ExperiencePage() {
         <div>
           {freelances.map((data) => (
             <AccordionDemo
+              key={data.title} 
               trigger={
                 <div className="flex items-center gap-3 w-full justify-between">
                   <div className="flex items-center gap-3">

@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import Marquee from "../ui/marquee";
 
 const ReviewCard = ({
   img,
@@ -37,3 +36,5 @@ const ReviewCard = ({
     </figure>
   );
 };
+
+export default ReviewCard;

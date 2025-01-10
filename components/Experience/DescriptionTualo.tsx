@@ -1,13 +1,9 @@
-import NextjsIcon from "@/icons/NextjsIcon";
 import NextjsWhiteIcon from "@/icons/NextJsWhiteIcon";
 import OpenAIIcon from "@/icons/OpenAIIcon";
 import SupabaseIcon from "@/icons/SupabaseIcon";
 import TailwindIcon from "@/icons/TailwindIcon";
-import TailwindWhiteIcon from "@/icons/TailwindWhiteIcon";
 import TypescriptIcon from "@/icons/TypescriptIcon";
-import TypescriptBlackIcon from "@/icons/TypescriptIconBlack";
-import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
-import { GlobeIcon, LinkIcon } from "lucide-react";
+import { GlobeIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 

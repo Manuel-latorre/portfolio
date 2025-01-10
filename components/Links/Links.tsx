@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import GithubIcon from '@/icons/GithubIcon'
 import Link from 'next/link'
 import LinkedInIcon from '@/icons/LinkedInIcon'
-import { ArrowUpRightIcon } from 'lucide-react'
 import { ArrowUpCircleIcon } from '@heroicons/react/24/outline'
 
 const Links = () => {

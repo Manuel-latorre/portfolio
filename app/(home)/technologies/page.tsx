@@ -1,7 +1,6 @@
 import Technology from "@/components/Technologies/Technology"
 import CssIcon from "@/icons/CssIcon"
 import ExpressIcon from "@/icons/ExpressIcon"
-import GithubIcon from "@/icons/GithubIcon"
 import GithubWhiteIcon from "@/icons/GithubWhiteIcon"
 import GitIcon from "@/icons/GitIcon"
 import HtmlIcon from "@/icons/HtmlIcon"
@@ -17,7 +16,6 @@ import SlackIcon from "@/icons/SlackIcon"
 import SupabaseIcon from "@/icons/SupabaseIcon"
 import TailwindIcon from "@/icons/TailwindIcon"
 import TrelloIcon from "@/icons/TrelloIcon"
-import TypescriptIcon from "@/icons/TypescriptIcon"
 import TypescriptBlackIcon from "@/icons/TypescriptIconBlack"
 
 const stack = [

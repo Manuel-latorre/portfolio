@@ -1,13 +1,14 @@
-import Image from "next/image";import profile from "../../../images/profile1.svg";
+import Image from "next/image";
+import profile from "../../../images/profile1.svg";
 import Link from "next/link";
 
 export default function AboutMePage() {
   return (
     <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-6 h-full max-lg:px-8">
       <div className="flex items-center justify-between max-md:flex-col-reverse max-md:items-center">
-        <div className=" max-md:text-center">
+        <div className="max-md:text-center">
           <p className="font-bold text-3xl lg:text-6xl mb-2">
-            Hi, I'm Manuel <span className="lg:hidden">👋</span>
+            Hi, I&apos;m Manuel <span className="lg:hidden">👋</span>
           </p>
           <p>
             Systems Engineering student and Fullstack Developer at Tualo. <br />{" "}
@@ -46,13 +47,13 @@ export default function AboutMePage() {
             </Link>
           </span>{" "}
           that allow me to explore different environments and address exciting
-          technological challenges. <br /> <br /> When I'm not working or
-          studying , I enjoy immersing myself in blogs about the technologies
+          technological challenges. <br /> <br /> When I&apos;m not working or
+          studying, I enjoy immersing myself in blogs about the technologies
           that interest me to stay up to date, experiment with new projects, and
           generate innovative ideas. In my free time, I also love to spend time
           with friends, explore the outdoors or stay home doing nothing, it
           depends on the weather 😊. <br />
-          For me, it's about balancing work, learning and fun while making the
+          For me, it&apos;s about balancing work, learning and fun while making the
           most of every opportunity to grow. 🚀
         </p>
       </div>
