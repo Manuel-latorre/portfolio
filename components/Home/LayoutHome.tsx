@@ -161,10 +161,10 @@ const features = [
   },
   {
     Icon: CodeIcon,
-    name: "Skills & Technologies",
+    name: "Technologies",
     description:
       "",
-    href: "/skills-technologies",
+    href: "/technologies",
     cta: "Learn more",
     className: "w-[30%]",
     background: (

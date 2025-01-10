@@ -17,8 +17,8 @@ const navlinks = [
         pathname: "/education"
     },
     {
-        name: "skills & technologies",
-        pathname: "/skills/technologies"
+        name: "technologies",
+        pathname: "/technologies"
     }
 ]
 
