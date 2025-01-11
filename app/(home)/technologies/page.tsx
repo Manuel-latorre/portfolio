@@ -107,7 +107,7 @@ const tools = [
 ]
 export default async function Technologies(){
     return(
-        <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-12 h-full  max-lg:px-8">
+        <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-12 h-full  max-lg:px-8 max-md:pb-[80px]">
             <div>
                 <p className="font-semibold text-2xl mb-2">Technologies</p>
                 <div className="flex items-center gap-4 flex-wrap">

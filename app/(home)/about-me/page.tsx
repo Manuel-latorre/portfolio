@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AboutMePage() {
   return (
-    <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-6 h-full max-lg:px-8">
+    <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-6 h-full max-lg:px-8 max-md:pb-[80px]">
       <div className="flex items-center justify-between max-md:flex-col-reverse max-md:items-center">
         <div className="max-md:text-center">
           <p className="font-bold text-3xl lg:text-6xl mb-2">
