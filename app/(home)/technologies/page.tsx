@@ -1,4 +1,5 @@
 import Technology from "@/components/Technologies/Technology"
+import Text from "@/components/Text/Text"
 import CssIcon from "@/icons/CssIcon"
 import ExpressIcon from "@/icons/ExpressIcon"
 import GithubWhiteIcon from "@/icons/GithubWhiteIcon"
@@ -109,7 +110,7 @@ export default async function Technologies(){
     return(
         <div className="lg:w-[70%] mx-auto mt-5 flex flex-col gap-12 h-full  max-lg:px-8 max-md:pb-[80px]">
             <div>
-                <p className="font-semibold text-2xl mb-2">Technologies</p>
+                <Text textEn={<p className="font-semibold text-2xl mb-2">Technologies</p>} textEs={<p className="font-semibold text-2xl mb-2">Tecnologías</p>}/>
                 <div className="flex items-center gap-4 flex-wrap">
                     {
                         stack.map((data) => (
@@ -124,7 +125,7 @@ export default async function Technologies(){
             </div>
 
             <div>
-                <p className="font-semibold text-2xl mb-2">Version Control and Management Tools</p>
+                <Text textEn={<p className="font-semibold text-2xl mb-2">Version Control and Management Tools</p>} textEs={<p className="font-semibold text-2xl mb-2">Control de versiones y herramientas de manejo</p>}/>
                 <div className="flex items-center gap-4 flex-wrap">
                     {
                         control_tools.map((data) => (
@@ -139,7 +140,7 @@ export default async function Technologies(){
             </div>
 
             <div>
-                <p className="font-semibold text-2xl mb-2">CLI and Consoles</p>
+                <Text textEn={<p className="font-semibold text-2xl mb-2">CLI and Consoles</p>} textEs={<p className="font-semibold text-2xl mb-2">CLI y Consolas</p>}/>
                 <div className="flex items-center gap-4 flex-wrap">
                     {
                         consoles.map((data) => (
@@ -154,7 +155,7 @@ export default async function Technologies(){
             </div>
 
             <div>
-                <p className="font-semibold text-2xl mb-2">Project management</p>
+                <Text textEn={<p className="font-semibold text-2xl mb-2">Project management</p>} textEs={<p className="font-semibold text-2xl mb-2">Organizacion de proyectos</p>}/>
                 <div className="flex items-center gap-4 flex-wrap">
                     {
                         tools.map((data) => (

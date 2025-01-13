@@ -1,16 +1,19 @@
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Navbar/Navbar";import { Questrial } from "next/font/google";
+
+const questrial = Questrial({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function LayoutHome({
-    children,
-  }: Readonly<{
-    children: React.ReactNode;
-  }>) {
-    return (
-      <html lang="en">
-        <body>
-            <Navbar/>
-          {children}
-        </body>
-      </html>
-    );
-  }
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <div className={`${questrial.className}  antialiased`}>
+      <Navbar />
+      {children}
+    </div>
+  );
+}
