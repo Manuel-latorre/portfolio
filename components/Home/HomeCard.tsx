@@ -1,6 +1,5 @@
 import React from 'react'
 import { BentoDemo } from './LayoutHome'
-import TranslationButtons from '../Buttons/TranslateButtons'
 import Title from '../Text/Title'
 import Text from '../Text/Text'
 import TranslationSwitch from '../Buttons/TranslateButtons'
