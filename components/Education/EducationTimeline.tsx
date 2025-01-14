@@ -83,15 +83,15 @@ interface TimelineItemProps {
 function TimelineItem({ item, isLast }: TimelineItemProps) {
   return (
     <li className={`ms-6 ${isLast ? '' : 'mb-10'}`}>
-      <span className="absolute flex items-center justify-center w-16 h-16 bg-white rounded-full -start-8 ring-8 ring-white dark:ring-gray-900 dark:bg-gray-700">
-        <Image src={item.icon} alt={`${item.place} logo`} width={60} height={60} className="rounded-full" />
+      <span className="absolute flex items-center justify-center w-16 h-16 bg-white rounded-full -start-8 ring-8 ring-white dark:ring-black dark:bg-black">
+        <Image src={item.icon} alt={`${item.place} logo`} width={60} height={60} className="rounded-full dark:bg-white" />
       </span>
-      <div className="p-4 bg-white border-b border-dashed dark:bg-gray-800 dark:border-gray-700">
-        <div className="text-xl font-semibold text-gray-900">
+      <div className="p-4 bg-white border-b border-dashed dark:bg-black dark:border-gray-700 dark:rounded-lg">
+        <div className="text-xl font-semibold text-gray-900 dark:text-white">
           {item.place}
         </div>
         <div className="items-center justify-between mb-2 sm:flex">
-          <time className="flex items-center mb-1 font-normal text-gray-400 sm:order-last sm:mb-0">
+          <time className="flex items-center mb-1 font-normal text-gray-400 dark:text-gray-300 sm:order-last sm:mb-0">
             <CalendarDays className="inline-block w-4 h-4 mr-1" />
             {item.date}
           </time>

@@ -27,7 +27,7 @@ const DescriptionDiarc = () => {
       <ul className="flex flex-col gap-2">
        <Text textEn={
          <li className="text-lg">
-         <span className="font-semibold text-gray-600">
+         <span className="font-semibold text-gray-600 dark:text-white">
            Interactive Portfolio
          </span>
          : The site includes a portfolio section showcasing completed projects,
@@ -37,14 +37,14 @@ const DescriptionDiarc = () => {
        }
         textEs={
           <li className="text-lg">
-          <span className="font-semibold text-gray-600">Portafolio Interactivo</span>
+          <span className="font-semibold text-gray-600 dark:text-white">Portafolio Interactivo</span>
           : El sitio incluye una sección de portafolio que muestra proyectos completados, categorizados en áreas como desarrollo web, móvil, de consola, de escritorio, realidad aumentada (AR) y realidad virtual (VR).
         </li>
         
         }
        />
        <Text textEn={ <li className="text-lg">
-          <span className="font-semibold text-gray-600">
+          <span className="font-semibold text-gray-600 dark:text-white">
             Animations and Transitions
           </span>
           : Subtle animations enhance the user experience, including hover
@@ -52,7 +52,7 @@ const DescriptionDiarc = () => {
         </li>}
           textEs={
             <li className="text-lg">
-            <span className="font-semibold text-gray-600">
+            <span className="font-semibold text-gray-600 dark:text-white">
               Animaticiones y transisiones
             </span>
             : Animaciones sutiles que mejoran la experiencia del usuario, incluyendo efectos al pasar el cursor y destacados basados en el desplazamiento.
@@ -61,36 +61,36 @@ const DescriptionDiarc = () => {
         />
        <Text textEn={
          <li className="text-lg">
-         <span className="font-semibold text-gray-600">Admin Panel:</span> The
+         <span className="font-semibold text-gray-600 dark:text-white">Admin Panel:</span> The
          site features a secure admin panel that allows the administrator to
          efficiently manage portfolio content.
        </li>
        }
         textEs={ <li className="text-lg">
-          <span className="font-semibold text-gray-600">Panel adminstrativo:</span> El sitio cuenta con un panel de administración seguro que permite al administrador gestionar eficientemente el contenido del portafolio.
+          <span className="font-semibold text-gray-600 dark:text-white">Panel adminstrativo:</span> El sitio cuenta con un panel de administración seguro que permite al administrador gestionar eficientemente el contenido del portafolio.
         </li>}
        />
         <Text textEn={<li className="text-lg">
-          <span className="font-semibold text-gray-600"> CRUD Operations</span>:
+          <span className="font-semibold text-gray-600 dark:text-white"> CRUD Operations</span>:
           The admin can create, read, update, and delete projects via the admin
           panel, ensuring the portfolio is always up-to-date.
         </li>}
           textEs={
             <li className="text-lg">
-          <span className="font-semibold text-gray-600">Operaciónes CRUD:</span>
+          <span className="font-semibold text-gray-600 dark:text-white">Operaciónes CRUD:</span>
           El administrador puede crear, leer, actualizar y eliminar proyectos a través del panel de administración, asegurando que el portafolio esté siempre actualizado.
         </li>
           }
         />
         <Text textEn={<li className="text-lg">
-          <span className="font-semibold text-gray-600">SEO:</span> Search
+          <span className="font-semibold text-gray-600 dark:text-white">SEO:</span> Search
           engine optimization practices, such as appropriate meta tags, friendly
           URLs, and relevant content, are applied to improve the site&apos;s
           visibility in search results.
         </li>}
           textEs={
             <li className="text-lg">
-          <span className="font-semibold text-gray-600">SEO:</span> Se aplican prácticas de optimización de motores de búsqueda, como metaetiquetas apropiadas y contenido amigable y relevante, para mejorar la visibilidad del sitio en los resultados de búsqueda.
+          <span className="font-semibold text-gray-600 dark:text-white">SEO:</span> Se aplican prácticas de optimización de motores de búsqueda, como metaetiquetas apropiadas y contenido amigable y relevante, para mejorar la visibilidad del sitio en los resultados de búsqueda.
         </li>
           }
         />

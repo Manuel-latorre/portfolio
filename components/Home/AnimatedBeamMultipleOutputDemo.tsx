@@ -161,7 +161,7 @@ const Icons = {
       </g>
     </svg>
   ),
-  openai: () => <BrainCircuitIcon width={50} height={50} />,
+  openai: () => <BrainCircuitIcon width={50} height={50} className="dark:text-zinc-600"/>,
   googleDrive: () => (
     <svg
       viewBox="0 -0.5 24 24"

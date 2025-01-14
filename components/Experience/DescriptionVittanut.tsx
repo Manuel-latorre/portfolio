@@ -36,14 +36,14 @@ const DescriptionVittanut = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Responsive Design</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Responsive Design</span>
                 : Built with Tailwind CSS, the site offers a seamless user experience
                 across devices, ensuring adaptability from mobile to desktop.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Diseño Responsivo</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Diseño Responsivo</span>
                 : Construido con Tailwind CSS, el sitio ofrece una experiencia de usuario
                 fluida en todos los dispositivos, asegurando adaptabilidad desde móviles hasta escritorio.
               </>
@@ -54,7 +54,7 @@ const DescriptionVittanut = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   Component-Based Architecture
                 </span>
                 : Leveraging React and TypeScript, the codebase is modular and
@@ -63,7 +63,7 @@ const DescriptionVittanut = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   Arquitectura Basada en Componentes
                 </span>
                 : Aprovechando React y TypeScript, el código es modular y
@@ -76,14 +76,14 @@ const DescriptionVittanut = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">SEO-Friendly</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">SEO-Friendly</span>:
                 Implemented structured metadata and dynamic routing for better search
                 engine indexing.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Optimizado para SEO</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Optimizado para SEO</span>:
                 Implementación de metadatos estructurados y enrutamiento dinámico para mejor
                 indexación en motores de búsqueda.
               </>
@@ -94,7 +94,7 @@ const DescriptionVittanut = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Multi Language</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Multi Language</span>:
                 The design accommodates scalability for multi-language
                 implementations. In this case, English, Spanish and German are
                 available.
@@ -102,7 +102,7 @@ const DescriptionVittanut = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Multilenguaje</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Multilenguaje</span>:
                 El diseño permite la escalabilidad para implementaciones en múltiples
                 idiomas. En este caso, inglés, español y alemán están
                 disponibles.

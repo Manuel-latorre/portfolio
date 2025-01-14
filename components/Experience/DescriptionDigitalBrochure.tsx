@@ -20,25 +20,25 @@ const DescriptionDigitalBrochure = () => {
       <Text textEn={<p className="font-semibold text-lg mb-2">Principal features</p>} textEs={<p className="font-semibold text-lg mb-2">Características principales</p>}/>
       <ul className="flex flex-col gap-2">
         <Text textEn={<li className="text-lg">
-          <span className="font-semibold text-gray-600">Global Accessibility</span>
+          <span className="font-semibold text-gray-600 dark:text-white">Global Accessibility</span>
           : The brochure is accessible online from anywhere in the world, making it easy to promote and share real estate projects with a wide audience.
         </li>}
         textEs={
           <li className="text-lg">
-          <span className="font-semibold text-gray-600">Accesibilidad global</span>
+          <span className="font-semibold text-gray-600 dark:text-white">Accesibilidad global</span>
           : Se puede acceder al folleto en línea desde cualquier parte del mundo, lo que facilita la promoción y el intercambio de proyectos inmobiliarios con una amplia audiencia.
         </li>
         }
         />
         <Text textEn={<li className="text-lg">
-          <span className="font-semibold text-gray-600">
+          <span className="font-semibold text-gray-600 dark:text-white">
           Arcane Mirage Component Integration
           </span>
           : The site integrates a component from Arcane Mirage, which likely enhances the 3D visualization and interactivity of the brochure. This integration provides a sophisticated and immersive user experience, showcasing detailed real estate layouts and masterplans.
         </li>}
         textEs={
           <li className="text-lg">
-          <span className="font-semibold text-gray-600">
+          <span className="font-semibold text-gray-600 dark:text-white">
           Integración de componente de Arcane Mirage
           </span>
           : El sitio integra un componente de Arcane Mirage, que mejora la visualización 3D y la interactividad del folleto. Esta integración proporciona una experiencia de usuario sofisticada e inmersiva, mostrando diseños y planes maestros detallados de bienes raíces.
@@ -46,11 +46,11 @@ const DescriptionDigitalBrochure = () => {
         }
         />
         <Text textEn={<li className="text-lg">
-          <span className="font-semibold text-gray-600">Bilingual Support</span>:
+          <span className="font-semibold text-gray-600 dark:text-white">Bilingual Support</span>:
           The website includes a language switcher, offering content in English and Spanish, ensuring accessibility to a broader, multilingual audience.
         </li>}
         textEs={<li className="text-lg">
-          <span className="font-semibold text-gray-600">Opción de traducción</span>:
+          <span className="font-semibold text-gray-600 dark:text-white">Opción de traducción</span>:
           El sitio web incluye un selector de idiomas que ofrece contenido en inglés y español, lo que garantiza la accesibilidad a una audiencia multilingüe más amplia.
         </li>}
         />

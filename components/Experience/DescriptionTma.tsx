@@ -36,7 +36,7 @@ const DescriptionTma = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   Data management
                 </span>
                 : Development of key functionalities through GET, POST, PUT requests
@@ -45,7 +45,7 @@ const DescriptionTma = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   Gestión de datos
                 </span>
                 : Desarrollo de funcionalidades clave a través de peticiones GET, POST, PUT
@@ -58,14 +58,14 @@ const DescriptionTma = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Image upload</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Image upload</span>
                 : Integration with Cloudinary for users to upload photos of
                 pets and profiles.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Subida de imágenes</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Subida de imágenes</span>
                 : Integración con Cloudinary para que los usuarios suban fotos de
                 mascotas y perfiles.
               </>
@@ -76,14 +76,14 @@ const DescriptionTma = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Notification system</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Notification system</span>
                 : Implementation of real-time notifications with React
                 Native Firebase Cloud Messaging.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Sistema de notificaciones</span>
+                <span className="font-semibold text-gray-600 dark:text-white">Sistema de notificaciones</span>
                 : Implementación de notificaciones en tiempo real con React
                 Native Firebase Cloud Messaging.
               </>

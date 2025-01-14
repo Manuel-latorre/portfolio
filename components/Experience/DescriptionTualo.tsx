@@ -41,7 +41,7 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   <Link href={"https://tualo.mx/"} target="_blank">
                     Corporate Website Creation
                   </Link>
@@ -51,7 +51,7 @@ const DescriptionTualo = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">
+                <span className="font-semibold text-gray-600 dark:text-white">
                   <Link href={"https://tualo.mx/"} target="_blank">
                     Creación del Sitio Web Corporativo
                   </Link>
@@ -65,7 +65,7 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Automatic Email Integration</span>: We
+                <span className="font-semibold text-gray-600 dark:text-white">Automatic Email Integration</span>: We
                 have implemented an automatic email system within the platform using{" "}
                 <span>
                   <Link
@@ -83,7 +83,7 @@ const DescriptionTualo = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Integración de Correos Automáticos</span>: Hemos
+                <span className="font-semibold text-gray-600 dark:text-white">Integración de Correos Automáticos</span>: Hemos
                 implementado un sistema de correos automáticos dentro de la plataforma usando{" "}
                 <span>
                   <Link
@@ -105,13 +105,13 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Client Platform</span>: Design and
+                <span className="font-semibold text-gray-600 dark:text-white">Client Platform</span>: Design and
                 implementation of dedicated sections for administrators and end users.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Plataforma de Clientes</span>: Diseño e
+                <span className="font-semibold text-gray-600 dark:text-white">Plataforma de Clientes</span>: Diseño e
                 implementación de secciones dedicadas para administradores y usuarios finales.
               </>
             }
@@ -121,13 +121,13 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">User Interface</span>: Continuous
+                <span className="font-semibold text-gray-600 dark:text-white">User Interface</span>: Continuous
                 design and improvement of the user experience.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Interfaz de Usuario</span>: Diseño
+                <span className="font-semibold text-gray-600 dark:text-white">Interfaz de Usuario</span>: Diseño
                 continuo y mejora de la experiencia de usuario.
               </>
             }
@@ -137,13 +137,13 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Database Interactions</span>: Advanced
+                <span className="font-semibold text-gray-600 dark:text-white">Database Interactions</span>: Advanced
                 functionality implementation for efficient data management.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Interacciones con la Base de Datos</span>: Implementación
+                <span className="font-semibold text-gray-600 dark:text-white">Interacciones con la Base de Datos</span>: Implementación
                 de funcionalidades avanzadas para la gestión eficiente de datos.
               </>
             }
@@ -153,13 +153,13 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Document Management</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Document Management</span>:
                 Integration of forms for uploading images, PDFs, and Excel files.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Gestión de Documentos</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Gestión de Documentos</span>:
                 Integración de formularios para la carga de imágenes, PDFs y archivos Excel.
               </>
             }
@@ -169,13 +169,13 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Payment Integration</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Payment Integration</span>:
                 Implementation of payment gateways to manage client subscriptions.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Integración de Pagos</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Integración de Pagos</span>:
                 Implementación de pasarelas de pago para gestionar suscripciones de clientes.
               </>
             }
@@ -185,14 +185,14 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Dynamic Chart Generator</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Dynamic Chart Generator</span>:
                 Development of interactive systems to create charts based on data
                 imported from Excel.
               </>
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Generador de Gráficos Dinámicos</span>:
+                <span className="font-semibold text-gray-600 dark:text-white">Generador de Gráficos Dinámicos</span>:
                 Desarrollo de sistemas interactivos para crear gráficos basados en datos
                 importados desde Excel.
               </>
@@ -203,7 +203,7 @@ const DescriptionTualo = () => {
           <Text 
             textEn={
               <>
-                <span className="font-semibold text-gray-600">Background Tasks</span>: Utilization
+                <span className="font-semibold text-gray-600 dark:text-white">Background Tasks</span>: Utilization
                 of{" "}
                 <span>
                   <Link
@@ -219,7 +219,7 @@ const DescriptionTualo = () => {
             }
             textEs={
               <>
-                <span className="font-semibold text-gray-600">Tareas en Segundo Plano</span>: Utilización
+                <span className="font-semibold text-gray-600 dark:text-white">Tareas en Segundo Plano</span>: Utilización
                 de{" "}
                 <span>
                   <Link

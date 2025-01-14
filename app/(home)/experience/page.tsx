@@ -76,7 +76,7 @@ const freelances = [
   },
   {
     title: "Brochure Digital Creative",
-    link:"https://www.diarc.studio/demo",
+    link:"https://diarc-studio-web.vercel.app/demo",
     subtitle: "3D Art Outsourcing Studio",
     date: <Text textEn="November 2024" textEs="Noviembre 2023"/>,
     icon: (
@@ -127,7 +127,7 @@ export default function ExperiencePage() {
                   <div className="flex items-center gap-3">
                     {data.icon}
                     <div className="flex flex-col items-start">
-                      <Link href={data.link} target="_blank" className="lg:text-lg text-start font-semibold text-zinc-800">
+                      <Link href={data.link} target="_blank" className="lg:text-lg text-start font-semibold text-zinc-800 dark:text-white">
                         {data.title}
                       </Link>
                       <p className="text-sm lg:text-base">{data.subtitle}</p>
@@ -136,12 +136,15 @@ export default function ExperiencePage() {
                       </div>
                     </div>
                   </div>
-                  <div className="px-4">
+                  <div className="px-4 max-sm:hidden">
                     <p className="text-gray-600 max-md:text-sm">{data.date}</p>
                   </div>
                 </div>
               }
-              content={<div>{data.description}</div>}
+              content={<div>
+                  <p className="text-gray-600 dark:text-white max-md:text-sm sm:hidden mb-4">{data.date}</p>
+                {data.description}
+                </div>}
             />
           ))}
         </div>
@@ -159,18 +162,21 @@ export default function ExperiencePage() {
                   <div className="flex items-center gap-3">
                     {data.icon}
                     <div className="flex flex-col items-start">
-                      <Link href={data.link} target="_blank" className="lg:text-lg text-start font-semibold text-zinc-800">
+                      <Link href={data.link} target="_blank" className="lg:text-lg text-start font-semibold text-zinc-800 dark:text-white">
                         {data.title}
                       </Link>
                       <p className="text-sm lg:text-base">{data.subtitle}</p>
                     </div>
                   </div>
-                  <div className="px-4">
+                  <div className="px-4 max-sm:hidden">
                     <p className="text-gray-600 max-md:text-sm">{data.date}</p>
                   </div>
                 </div>
               }
-              content={<div>{data.description}</div>}
+              content={<div>
+                 <p className="text-gray-600 dark:text-white max-md:text-sm sm:hidden mb-4">{data.date}</p>
+                {data.description}
+              </div>}
             />
           ))}
         </div>

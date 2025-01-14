@@ -7,6 +7,7 @@ import { CodeBracketIcon } from "@heroicons/react/24/outline";
 import { HomeIcon } from "@heroicons/react/24/outline";
 import TranslationButtons from "../Buttons/TranslateButtons";
 import Text from "../Text/Text";
+import ThemeToggle from "../Buttons/DarkLightButton";
 
 const navlinks = [
   {
@@ -50,8 +51,9 @@ const Navbar = () => {
             />
             ))}
         </div>
-        <div className="max-md:hidden">
-        <TranslationButtons/>
+        <div className="max-md:hidden flex items-center gap-4">
+          <TranslationButtons/>
+          <ThemeToggle />
         </div>
       </nav>
     </div>
