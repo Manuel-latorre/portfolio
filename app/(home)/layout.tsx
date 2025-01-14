@@ -1,3 +1,4 @@
+import MobileNav from "@/components/Navbar/MobileNav";
 import Navbar from "@/components/Navbar/Navbar";import { Questrial } from "next/font/google";
 
 const questrial = Questrial({
@@ -12,6 +13,7 @@ export default function LayoutHome({
 }>) {
   return (
     <div className={`${questrial.className}  antialiased`}>
+      <MobileNav/>
       <Navbar />
       {children}
     </div>

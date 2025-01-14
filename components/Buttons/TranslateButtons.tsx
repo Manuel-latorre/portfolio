@@ -1,49 +1,32 @@
 "use client";
 
 import * as React from "react";
-import { Check, ChevronsUpDown } from 'lucide-react';
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { LanguageIcon } from "@heroicons/react/20/solid";
 import { useLanguage } from "@/app/context/LanguageContext";
+import { Switch } from "@/components/ui/switch";
+import { LanguageIcon } from "@heroicons/react/20/solid";
 
-const languages = [
-    {
-      value: "es",
-      label: "Español",
-      switch: "switchToSpanish", // Key for switching
-    },
-  {
-    value: "en",
-    label: "English",
-    switch: "switchToEnglish", // Key for switching
-  },
-];
-
-export default function TranslationButtons() {
+export default function TranslationSwitch() {
   const { language, switchToEnglish, switchToSpanish } = useLanguage();
 
-  // Map switch functions
-  const switchFunctions: { [key: string]: () => void } = {
-    switchToEnglish,
-    switchToSpanish,
+  const handleSwitchChange = (checked: boolean) => {
+    if (checked) {
+      switchToEnglish();
+    } else {
+      switchToSpanish();
+    }
   };
 
   return (
-    <div className="flex space-x-2">
-      {languages.map((lang) => (
-        <Button
-          key={lang.value}
-          onClick={switchFunctions[lang.switch]}
-          variant={language === lang.value ? "default" : "outline"}
-          className="flex items-center space-x-2"
-        >
-          <LanguageIcon className="h-4 w-4" />
-          <span>{lang.label}</span>
-          {language === lang.value && <Check className="h-4 w-4 ml-2" />}
-        </Button>
-      ))}
+    <div className="flex items-center space-x-2">
+      <LanguageIcon className="h-4 w-4 text-gray-500" />
+      <Switch 
+        id="language-switch"
+        checked={language === 'en'}
+        onCheckedChange={handleSwitchChange}
+      />
+      <label htmlFor="language-switch" className="text-sm">
+        {language === 'en' ? 'English' : 'Español'}
+      </label>
     </div>
   );
 }
-

@@ -6,6 +6,7 @@ import Links from '../Links/Links'
 import Text from '../Text/Text'
 import { DocumentTextIcon } from '@heroicons/react/24/outline'
 import CVbutton from '../Buttons/CVbutton'
+import TranslationSwitch from '../Buttons/TranslateButtons'
 
 
 
@@ -23,10 +24,11 @@ const ProfileCard = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <div className='flex items-center gap-2'>
+                {/* <div className='flex items-center gap-2'>
                     <p className='font-thin text-lg underline underline-offset-8 decoration-dashed'>manuel.latorre11@gmail.com</p>
                     <InboxIcon width={16} height={16} />
-                </div>
+                </div> */}
+                <TranslationSwitch/>
             </div>
 
         </div>

@@ -7,7 +7,7 @@ const Title = () => {
     const { language } = useLanguage();
 
   return (
-    <h1 className='font-semibold max-sm:text-3xl max-md:text-5xl text-6xl 2xl:text-8xl'>
+    <h1 className='font-semibold max-sm:text-4xl max-md:text-5xl text-6xl 2xl:text-8xl'>
         {language === "es" ? "Desarrollador Frontend" : "Frontend Developer"}
     </h1>
   )

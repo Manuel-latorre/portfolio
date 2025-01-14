@@ -9,9 +9,9 @@ const Text = ({className, textEs, textEn}:{className?:string, textEs:JSX.Element
     const { language } = useLanguage();
 
   return (
-    <p className={className}>
+    <span className={className}>
         {language === "es" ? textEs : textEn }
-    </p>
+    </span>
   )
 }
 

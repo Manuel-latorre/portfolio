@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <div className="max-md:flex max-md:justify-center">
       <nav className="flex h-[60px] w-full items-center justify-between max-md:justify-around max-lg:w-[95%] lg:w-[70%] mx-auto sticky md:top-3 md:mt-3 nav rounded-full px-2 z-50 max-md:bottom-3 max-md:fixed max-md:gap-2">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center max-md:gap-4">
             {navlinks.map((link) => (
             <Navlinks
                 pathname={link.pathname}
