@@ -13,9 +13,8 @@ const CVbutton = () => {
 
   return (
     <button
-        
         onClick={() => {
-          window.open(language === "en" ? "/Manuel-Latorre-Desarrollador-Frontend-ingles-2025.pdf" : "/Manuel-Latorre-Desarrollador-Frontend.pdf", "_blank");
+          window.open(language === "en" ? "/Manuel-Latorre-Frontend-Developer.pdf" : "/Manuel-Latorre-Desarrollador-Frontend.pdf", "_blank");
         }}
         className="relative inline-block w-[30px] h-[30px]"
         onMouseEnter={() => setIsHoveredCv(true)}
