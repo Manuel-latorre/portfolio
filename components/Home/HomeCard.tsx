@@ -1,11 +1,11 @@
-import React from "react";
-import { BentoDemo } from "./LayoutHome";
+import React from "react";import { BentoDemo } from "./LayoutHome";
 import Title from "../Text/Title";
 import Text from "../Text/Text";
 import TranslationSwitch from "../Buttons/TranslateButtons";
 import Image from "next/image";
 import profile from "../../images/profile1.svg";
 import ThemeToggle from "../Buttons/DarkLightButton";
+import Links from "../Links/Links";
 
 const HomeCard = () => {
   return (
@@ -34,6 +34,10 @@ const HomeCard = () => {
         />
       </div>
       <BentoDemo />
+
+      <div className="lg:hidden flex justify-center">
+        <Links />
+      </div>
     </div>
   );
 };
