@@ -14,7 +14,7 @@ export default function AboutMePage() {
               className="font-bold text-3xl lg:text-6xl mb-2"
             />
           </div>
-          <div>
+          <div className="md:w-[80%] md:mt-2">
             <Text
               textEn="Systems Engineering student and Fullstack Developer at Tualo"
               textEs="Estudiante de Ingeniería de Sistemas y Desarrollador Fullstack en Tualo."
@@ -35,9 +35,9 @@ export default function AboutMePage() {
           textEs="Sobre mí"
         />
         <Text
-          className="text-zinc-500 text-lg"
+          className="text-zinc-500 text-lg dark:text-white"
           textEn={
-            <p className="text-zinc-500 text-lg">
+            <p className="text-zinc-500 text-lg dark:text-white">
               I am a Systems Engineering student with experience in the
               development of web applications and data management platforms.{" "}
               <br /> My passion lies in creating technological solutions that
@@ -49,7 +49,7 @@ export default function AboutMePage() {
                   href={
                     "https://www.linkedin.com/company/tualo/posts/?feedView=all"
                   }
-                  className="text-zinc-900 font-semibold underline underline-offset-2"
+                  className="text-zinc-900 dark:text-[#f4f4f4] dark:font-medium font-semibold underline underline-offset-2"
                   target="_blank"
                 >
                   Fullstack Developer at Tualo
@@ -58,8 +58,8 @@ export default function AboutMePage() {
               , while also carrying out{" "}
               <span>
                 <Link
-                  href={""}
-                  className="text-zinc-900 underline underline-offset-2 font-semibold"
+                  href={"/experience/#freelance-proyects"}
+                  className="text-zinc-900 dark:text-[#f4f4f4] dark:font-medium underline underline-offset-2 font-semibold"
                 >
                   freelance projects
                 </Link>
@@ -76,7 +76,7 @@ export default function AboutMePage() {
             </p>
           }
           textEs={
-            <p className="text-zinc-500 text-lg">
+            <p className="text-zinc-500 text-lg dark:text-white">
               Soy estudiante de Ingeniería en Sistemas con experiencia en el
               desarrollo de aplicaciones web y plataformas de gestión de datos.{" "}
               <br /> Mi pasión radica en crear soluciones tecnológicas que
@@ -127,15 +127,15 @@ export default function AboutMePage() {
         />
         <Text
           textEn={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">Teamwork:</span>{" "}
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">Teamwork:</span>{" "}
               Adaptability in collaborative environments to achieve common
               goals.
             </p>
           }
           textEs={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">
                 Trabajo en equipo:
               </span>{" "}
               Adaptabilidad en entornos colaborativos para lograr objetivos
@@ -145,14 +145,14 @@ export default function AboutMePage() {
         />
         <Text
           textEn={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">Proactivity:</span>
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">Proactivity:</span>
               Ability to identify and optimize processes by anticipating needs.
             </p>
           }
           textEs={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">Proactividad:</span>
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">Proactividad:</span>
               Capacidad para identificar y optimizar procesos anticipándose a
               las necesidades.
             </p>
@@ -160,16 +160,16 @@ export default function AboutMePage() {
         />
         <Text
           textEn={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">
                 Communication:
               </span>
               Strong relationship-building skills with clients and colleagues.
             </p>
           }
           textEs={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">Comunicación:</span>
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">Comunicación:</span>
               Fuertes habilidades para establecer relaciones con clientes y
               colegas.
             </p>
@@ -177,16 +177,16 @@ export default function AboutMePage() {
         />
         <Text
           textEn={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">
                 Problem-Solving:
               </span>
               Talent for finding creative solutions to technological challenges.
             </p>
           }
           textEs={
-            <p className="text-zinc-500 text-lg">
-              <span className="font-semibold text-zinc-900">
+            <p className="text-zinc-500 text-lg dark:text-white">
+              <span className="font-semibold text-zinc-900 dark:text-white dark:font-medium">
                 Resolución de Problemas:
               </span>
               Talento para encontrar soluciones creativas a desafíos

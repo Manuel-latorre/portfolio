@@ -150,7 +150,7 @@ export default function ExperiencePage() {
         </div>
       </div>
 
-      <div>
+      <div id="freelance-proyects">
         <Text textEn={<p className="font-semibold text-2xl mb-2">Freelance Proyects</p>} textEs={<p className="font-semibold text-2xl mb-2">Proyectos freelance</p>}/>
 
         <div>

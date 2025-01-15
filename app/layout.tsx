@@ -12,7 +12,7 @@ const questrial = Questrial({
 });
 export const metadata: Metadata = {
   title: "Manuel Latorre",
-  description: "Frontend Developer",
+  description: "Frontend Developer | Typescript | React | Next Js | Tailwind css",
 };
 
 export default function RootLayout({
@@ -22,6 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
       <body
         className={`${questrial.className}  antialiased`}
       >
