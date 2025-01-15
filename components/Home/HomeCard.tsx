@@ -29,8 +29,8 @@ const HomeCard = () => {
         </div>
         <Text
           className="max-md:text-sm xl:text-2xl"
-          textEs="+1 año de experiencia desarrollando software & Estudiante de Ingeniería en Sistemas"
-          textEn="+1 year experience developing software & Student of Systems Engineering"
+          textEs="+1 año de experiencia desarrollando aplicaciones web y plataformas de gestión de datos & Estudiante de Ingeniería de Sistemas"
+          textEn="+1 year of experience developing web applications and data management platforms & Student of Systems Engineering"
         />
       </div>
       <BentoDemo />
