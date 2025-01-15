@@ -15,7 +15,7 @@ const Navlinks = ({pathname, name, icon}: Props) => {
   const path = usePathname()
 
   return (
-    <Link href={pathname} className={`capitalize py-2 px-4 flex items-center gap-1 rounded-full max-md:w-full max-md:justify-center ${path === pathname ? "bg-black text-white dark:bg-white dark:text-black" : " max-md:bg-black/40"}`}>
+    <Link href={pathname} className={`capitalize py-2 px-4 flex items-center gap-1 rounded-full max-md:w-full max-md:justify-center ${path === pathname ? "bg-black text-white dark:bg-white dark:text-black" : " max-md:bg-black/40 max-md:dark:bg-zinc-600"}`}>
         <div className='max-md:hidden'>
           {path === pathname ? icon : null}
         </div>

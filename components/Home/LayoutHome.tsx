@@ -278,7 +278,7 @@ export function BentoDemo() {
           <BentoCard key={idx} {...(feature as any)} />
         ))}
       </div>
-      <div className="flex flex-col lg:hidden h-full gap-4">
+      <div className="flex flex-col lg:hidden h-full gap-4 mb-8">
         {features.map((feature, idx) => (
           <BentoCard key={idx} {...(feature as any)} />
         ))}

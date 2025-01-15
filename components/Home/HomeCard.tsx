@@ -35,7 +35,7 @@ const HomeCard = () => {
       </div>
       <BentoDemo />
 
-      <div className="lg:hidden flex justify-center">
+      <div className="lg:hidden flex justify-center py-5">
         <Links />
       </div>
     </div>
