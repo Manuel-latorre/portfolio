@@ -23,6 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon" />
+      <meta property="og:image" content="/opengraph-image.png" />
+      
       <body
         className={`${questrial.className}  antialiased`}
       >
