@@ -107,7 +107,7 @@ const studies = [
     name: (
       <Text
         textEn="Systems engineering | CAECE"
-        textEs="Ingenieria en Sistemas | CAECE"
+        textEs="Ingeniería en Sistemas | CAECE"
       />
     ),
     body: (

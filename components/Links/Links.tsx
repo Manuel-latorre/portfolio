@@ -2,16 +2,16 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ArrowUpCircleIcon, LinkIcon } from "@heroicons/react/24/outline";
+import { ArrowUpCircleIcon } from "@heroicons/react/24/outline";
 import { Github, LinkedinIcon, MailIcon } from "lucide-react";
 import Text from "../Text/Text";
 import { DocumentTextIcon } from "@heroicons/react/24/outline";
+import CVbutton from "../Buttons/CVbutton";
 
 const Links = () => {
   const [isHoveredLinkedin, setIsHoveredLinkedin] = useState(false);
   const [isHoveredGithub, setIsHoveredGithub] = useState(false);
   const [isHoveredMail, setIsHoveredMail] = useState(false);
-  const [isHoveredCv, setIsHoveredCv] = useState(false);
 
   return (
     <div className="flex items-center gap-3">
@@ -78,28 +78,7 @@ const Links = () => {
         </div>
       </Link>
 
-      <button
-        
-        onClick={() => {
-          window.open("/Manuel-Latorre-Desarrollador-Frontend.pdf", "_blank");
-        }}
-        className="relative inline-block w-[30px] h-[30px]"
-        onMouseEnter={() => setIsHoveredCv(true)}
-        onMouseLeave={() => setIsHoveredCv(false)}
-      >
-        <div
-          className="absolute inset-0 transition-opacity duration-300 ease-in-out"
-          style={{ opacity: isHoveredCv ? 0 : 1 }}
-        >
-          <DocumentTextIcon width={30} height={30}/>
-        </div>
-        <div
-          className="absolute inset-0 transition-opacity duration-300 ease-in-out rotate-45"
-          style={{ opacity: isHoveredCv ? 1 : 0 }}
-        >
-          <ArrowUpCircleIcon width={30} height={30} />
-        </div>
-      </button>
+      <CVbutton/>
 
     </div>
   );

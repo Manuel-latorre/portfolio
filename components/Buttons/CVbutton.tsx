@@ -1,21 +1,39 @@
 "use client";
 
 import { useLanguage } from "@/app/context/LanguageContext";
-import { LinkIcon } from "@heroicons/react/24/outline";
+import { DocumentTextIcon, ArrowUpCircleIcon } from "@heroicons/react/24/outline";
+
+import { useState } from "react";
+
 
 const CVbutton = () => {
     const {language} = useLanguage()
+    const [isHoveredCv, setIsHoveredCv] = useState(false);
+
 
   return (
     <button
-      onClick={() => {
-        window.open("/Manuel-Latorre-Desarrollador-Frontend.pdf", "_blank");
-      }}
-      className="flex items-center gap-2 hover:underline underline-offset-2 transition-all"
-    >
-      {language === "en" ? "View my resume here!" : "¡Mira mi CV aquí!"}
-      <LinkIcon width={18} height={18}/>
-    </button>
+        
+        onClick={() => {
+          window.open(language === "en" ? "/Manuel-Latorre-Desarrollador-Frontend-ingles-2025.pdf" : "/Manuel-Latorre-Desarrollador-Frontend.pdf", "_blank");
+        }}
+        className="relative inline-block w-[30px] h-[30px]"
+        onMouseEnter={() => setIsHoveredCv(true)}
+        onMouseLeave={() => setIsHoveredCv(false)}
+      >
+        <div
+          className="absolute inset-0 transition-opacity duration-300 ease-in-out"
+          style={{ opacity: isHoveredCv ? 0 : 1 }}
+        >
+          <DocumentTextIcon width={30} height={30}/>
+        </div>
+        <div
+          className="absolute inset-0 transition-opacity duration-300 ease-in-out rotate-45"
+          style={{ opacity: isHoveredCv ? 1 : 0 }}
+        >
+          <ArrowUpCircleIcon width={30} height={30} />
+        </div>
+      </button>
   );
 };
 
