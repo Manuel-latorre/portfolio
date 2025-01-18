@@ -14,11 +14,12 @@ export default function AboutMePage() {
               className="font-bold text-3xl lg:text-6xl mb-2"
             />
           </div>
-          <div className="md:w-[80%] md:mt-2">
+          <div className="md:w-[90%] md:mt-2">
             <Text
               textEn="Systems Engineering student and Fullstack Developer at Tualo"
               textEs="Estudiante de Ingeniería de Sistemas y Desarrollador Fullstack en Tualo."
             />
+            <br />
             <Text
               textEn="Passionate about optimizing processes, enhancing user experiences,
             and tackling diverse tech challenges."
