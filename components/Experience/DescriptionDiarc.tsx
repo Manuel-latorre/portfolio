@@ -137,7 +137,7 @@ const DescriptionDiarc = () => {
         />
         <div className="flex items-center gap-4">
           <Link
-            href={"https://www.diarc.studio/demo"}
+            href={"https://diarc-studio-web.vercel.app/"}
             target="_blank"
             className="flex items-center gap-2 bg-zinc-900 text-white p-2 w-fit rounded-lg"
           >
