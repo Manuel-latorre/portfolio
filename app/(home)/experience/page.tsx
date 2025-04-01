@@ -3,6 +3,7 @@ import tualo from "../../../images/tualo.svg";
 import tma from "../../../images/tma.svg";
 import diarc from "../../../images/diarc.svg";
 import vittanut from "../../../images/vittanut.svg";
+import yb from "../../../images/yb.png";
 import brochure from "../../../images/brochure.svg";
 import { AccordionDemo } from "@/components/Accordion/Accordion";
 import DescriptionTualo from "@/components/Experience/DescriptionTualo";
@@ -12,6 +13,7 @@ import DescriptionDigitalBrochure from "@/components/Experience/DescriptionDigit
 import Link from "next/link";
 import DescriptionDiarc from "@/components/Experience/DescriptionDiarc";
 import Text from "@/components/Text/Text";
+import DescriptionYacobian from "@/components/Experience/DescriptionYacobian";
 
 const experiences = [
   {
@@ -57,6 +59,24 @@ const experiences = [
 
 const freelances = [
   {
+    title: "Yacobian",
+    link:"https://yacobian.es/",
+    subtitle: <Text textEn="Real Estate" textEs="Inmobiliaria"/>,
+    date: <Text textEn="March 2025" textEs="Marzo 2025"/>,
+    icon: (
+      <Image
+        src={yb}
+        alt="Yacobian Logo"
+        width={60}
+        height={60}
+        className="rounded-full border"
+      />
+    ),
+    description: <DescriptionYacobian/>,
+    stack: "",
+    latest: true,
+  },
+  {
     title: "Vittanut",
     link:"https://www.vittanut.com/",
     subtitle: <Text textEn="Pecan nuts industry" textEs="Industria de nueces pecán"/>,
@@ -72,7 +92,7 @@ const freelances = [
     ),
     description: <DescriptionVittanut/>,
     stack: "",
-    latest: true,
+    latest: false,
   },
   {
     title: "Brochure Digital Creative",
