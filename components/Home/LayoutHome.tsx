@@ -6,6 +6,7 @@ import { BentoCard } from "../ui/bento-grid";
 import Marquee from "../ui/marquee";
 import Image from "next/image";
 import tualo from "../../images/tualo.svg";
+import yb from "../../images/yb.png";
 import tma from "../../images/tma.svg";
 import diarc from "../../images/diarc.svg";
 import vittanut from "../../images/vittanut.svg";
@@ -13,6 +14,17 @@ import gt from "../../images/gt.svg";
 import Text from "../Text/Text";
 
 const files = [
+  {
+    name: "Yacobian",
+    image: <Image src={yb} alt="Tualo logo" width={30} height={30} className="rounded-full"/>,
+    body: (
+      <Text
+        textEn="Development based on Figma prototypes, ensuring design fidelity and a mobile-first, fully responsive experience."
+        textEs="Desarrollo basado en prototipos de Figma, asegurando fidelidad al diseño y experiencia
+mobile-first y totalmente responsiva."
+      />
+    ),
+  },
   {
     name: "Tualo",
     image: <Image src={tualo} alt="Tualo logo" width={30} height={30} />,
