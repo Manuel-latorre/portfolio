@@ -45,20 +45,16 @@ const stack = [
         icon: <ReactIcon width={28} height={28}/>
     },
     {
+        name:"Zustand", 
+        icon:
+    }
+    {
         name: "Next Js",
         icon: <NextjsWhiteIcon width={28} height={28}/>
     },
     {
         name: "Node",
         icon: <NodeIcon width={28} height={28}/>
-    },
-    {
-        name: "Express",
-        icon: <ExpressIcon width={28} height={28}/>
-    },
-    {
-        name: "Mongo db",
-        icon: <MongodbIcon width={28} height={28}/>
     },
     {
         name: "Supabase",
