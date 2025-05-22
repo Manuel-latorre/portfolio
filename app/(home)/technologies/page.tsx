@@ -18,6 +18,7 @@ import SupabaseIcon from "@/icons/SupabaseIcon"
 import TailwindIcon from "@/icons/TailwindIcon"
 import TrelloIcon from "@/icons/TrelloIcon"
 import TypescriptBlackIcon from "@/icons/TypescriptIconBlack"
+import ZustandIcon from "../../../icons/ZustandIcon"
 
 const stack = [
     {
@@ -46,8 +47,8 @@ const stack = [
     },
     {
         name:"Zustand", 
-        icon:
-    }
+        icon: <ZustandIcon width={28} height={28}/>
+    },
     {
         name: "Next Js",
         icon: <NextjsWhiteIcon width={28} height={28}/>
